@@ -62,12 +62,12 @@ async function init() {
 
 Table of Contents:
         
-- [${description}](#heading)
-- [${usage} ](#heading-1)
-- [${installation}](#heading-2)
-- [${contribute}](#heading-3)
-- [${tests}](#heading-4)
-- [${email}](#heading-5)
+- [Project Description](#Project Description)
+- [Usage](#usage)
+- [Installation](#installation)
+- [contribute](#contribute)
+- [tests](#tests)
+- [Contact](#email)
 
 
 # Project Description:
