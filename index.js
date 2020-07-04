@@ -4,11 +4,15 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 
+
 // function call to initialize program
 init();
 
+
 // array of questions for user
 async function init() {
+
+
     const { github, email, title, license, description, installation, usage, contribute, tests } = await inquirer.prompt([
         {
             type: 'input',
@@ -57,9 +61,7 @@ async function init() {
 
     function buildHTML(github, email, title, license, description, installation, usage, contribute, tests) {
         return `
-
 # ${title}
-
 Table of Contents:
         
 - [Project_Description](#Project_Description)
@@ -67,7 +69,7 @@ Table of Contents:
 - [Installation](#installation)
 - [contribute](#contribute)
 - [tests](#tests)
-- [Contact](#email)
+- [Questions](#Questions)
 
 
 # Project_Description:
@@ -85,12 +87,18 @@ ${description}
 # tests
 How to test project functionality: ${tests} 
 
-# email
+# Questions
 Email address: ${email}
 Github profile name: ${github}
 
 # License
-${license} © ${github} 
+${license} © 2020 ${github}
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
         `
 
     }
