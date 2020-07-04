@@ -62,15 +62,15 @@ async function init() {
 
 Table of Contents:
         
-- [${description}](#heading)
-- [${usage} ](#heading-1)
-- [${installation}](#heading-2)
-- [${contribute}](#heading-3)
-- [${tests}](#heading-4)
-- [${email}](#heading-5)
+- [Project_Description](#Project_Description)
+- [Usage](#usage)
+- [Installation](#installation)
+- [contribute](#contribute)
+- [tests](#tests)
+- [Contact](#email)
 
 
-# Project Description:
+# Project_Description:
 ${description} 
 
 # Usage:
@@ -82,10 +82,10 @@ ${description}
 # Contribute:
  ${contribute} 
 
-# How to test project functionality:
- ${tests} 
+# tests
+How to test project functionality: ${tests} 
 
-# Contact
+# email
 Email address: ${email}
 Github profile name: ${github}
 
