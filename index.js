@@ -6,6 +6,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 // function call to initialize program
 init();
+
 // array of questions for user
 async function init() {
     const { github, email, title, license, description, installation, usage, contribute, tests } = await inquirer.prompt([
@@ -48,57 +49,72 @@ async function init() {
         }
 
     ])
-
     const HTML = buildHTML(github, email, title, license, description, installation, usage, contribute, tests)
 
     // function to write README file
-    fs.writeFile(`${title}.html`, HTML, (err) => err && console.log('error in write file is: ', err));
+    fs.writeFile(`README.md`, HTML, (err) => err && console.log('error in write file is: ', err));
 
 
     function buildHTML(github, email, title, license, description, installation, usage, contribute, tests) {
-        return `<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>${title}</title>
-    </head>
-    <body>
-        <h1>
-        ${title} 
-        </h1>
+        return `
 
-        <p>
-      Project Description:  ${description} 
-        <p>
+# ${title}
 
-        <h2>
-        Installation: ${installation} 
-        </h2>
-
-        <h2>
-        Usage: ${usage} 
-        </h2>
-
-        <h2>
-        Contribute: ${contribute} 
-        </h2>
-
-        <h2>
-        How to test project functionality: ${tests} 
-        </h2>
-
-        <br>
-
-        <p>Github profile name: ${github}</p>
-        <p>Email address: ${email}</p>
-
-        <br><br>
-        <footer>
-        ${license} © ${github} 
-        </footer>
+Table of Contents:
         
-    </body>
-    </html>`
+- [${description}](#heading)
+- [${usage} ](#heading-1)
+- [${installation}](#heading-2)
+- [${contribute}](#heading-3)
+- [${tests}](#heading-4)
+- [${email}](#heading-5)
+
+
+# Project Description:
+${description} 
+
+# Usage:
+ ${usage} 
+
+# Installation:
+ ${installation} 
+
+# Contribute:
+ ${contribute} 
+
+# How to test project functionality:
+ ${tests} 
+
+# Contact
+Email address: ${email}
+Github profile name: ${github}
+
+# License
+${license} © ${github} 
+        `
+
     }
+
 };
+
+
+
+
+
+
+
+
+
+// ${title}
+
+
+// Project Description:  ${description} 
+//   Installation: ${installation} 
+//   Usage: ${usage} 
+//   Contribute: ${contribute} 
+//   How to test project functionality: ${tests} 
+// Github profile name: ${github}
+//  Email address: ${email}
+
+
+//   ${license} © ${github} 
