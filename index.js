@@ -58,36 +58,40 @@ async function init() {
     function buildHTML(github, email, title, license, description, installation, usage, contribute, tests) {
         return `
 
-        - [Project Description](#Project Description)
-        - [Usage](#usage)
-        - [Installation](#installation)
-        - [contribute](#contribute)
-        - [tests](#tests)
-        - [Contact](#email)
+# ${title}
+
+Table of Contents:
         
-        
-        # Project Description:
-        ${description} 
-        
-        # Usage:
-         ${usage} 
-        
-        # Installation:
-         ${installation} 
-        
-        # Contribute:
-         ${contribute} 
-        
-        # How to test project functionality:
-         ${tests} 
-        
-        # Contact
-        Email address: ${email}
-        Github profile name: ${github}
-        
-        # License
-        ${license} © ${github} 
-                `
+- [Project Description](#Project Description)
+- [Usage](#usage)
+- [Installation](#installation)
+- [contribute](#contribute)
+- [tests](#tests)
+- [Contact](#email)
+
+
+# Project Description:
+${description} 
+
+# Usage:
+ ${usage} 
+
+# Installation:
+ ${installation} 
+
+# Contribute:
+ ${contribute} 
+
+# How to test project functionality:
+ ${tests} 
+
+# email
+Email address: ${email}
+Github profile name: ${github}
+
+# License
+${license} © ${github} 
+        `
 
     }
 
