@@ -62,7 +62,7 @@ async function init() {
 
 Table of Contents:
         
-- [Project Description](#Project Description)
+- [Project_Description](#Project_Description)
 - [Usage](#usage)
 - [Installation](#installation)
 - [contribute](#contribute)
@@ -70,7 +70,7 @@ Table of Contents:
 - [Contact](#email)
 
 
-# Project Description:
+# Project_Description:
 ${description} 
 
 # Usage:
@@ -82,8 +82,8 @@ ${description}
 # Contribute:
  ${contribute} 
 
-# How to test project functionality:
- ${tests} 
+# tests
+How to test project functionality: ${tests} 
 
 # email
 Email address: ${email}
