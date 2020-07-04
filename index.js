@@ -67,24 +67,33 @@ async function init() {
         <h1>
         ${title} 
         </h1>
-        <p>Github profile name: ${github}</p>
-        <p>Email address: ${email}</p>
+
+        <p>
+      Project Description:  ${description} 
+        <p>
+
         <h2>
-        ${description} 
-        </h2>
-        <h2>
-        ${installation} 
-        </h2>
-        <h2>
-        ${usage} 
-        </h2>
-        <h2>
-        ${contribute} 
-        </h2>
-        <h2>
-        ${tests} 
+        Installation: ${installation} 
         </h2>
 
+        <h2>
+        Usage: ${usage} 
+        </h2>
+
+        <h2>
+        Contribute: ${contribute} 
+        </h2>
+
+        <h2>
+        How to test project functionality: ${tests} 
+        </h2>
+
+        <br>
+
+        <p>Github profile name: ${github}</p>
+        <p>Email address: ${email}</p>
+
+        <br><br>
         <footer>
         ${license} © ${github} 
         </footer>
