@@ -3,6 +3,7 @@ const path = require("path");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+
 // function call to initialize program
 init();
 // array of questions for user
@@ -68,6 +69,25 @@ async function init() {
         </h1>
         <p>Github profile name: ${github}</p>
         <p>Email address: ${email}</p>
+        <h2>
+        ${description} 
+        </h2>
+        <h2>
+        ${installation} 
+        </h2>
+        <h2>
+        ${usage} 
+        </h2>
+        <h2>
+        ${contribute} 
+        </h2>
+        <h2>
+        ${tests} 
+        </h2>
+
+        <footer>
+        ${license} © ${github} 
+        </footer>
         
     </body>
     </html>`
