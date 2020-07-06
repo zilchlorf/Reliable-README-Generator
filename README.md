@@ -20,10 +20,10 @@ The county courthouse is a historic building that is located in the oldest town 
  Step #1:Measure the width of your building. Before you start cutting, you first need to determine how long your roof rafters need to be, and the angles at which you’ll cut the top and bottom of the rafter. 
 
 # Contribute:
- This section guides you through submitting a bug report for Atom. Following these guidelines helps maintainers and the community understand your report 📝, reproduce the behavior 💻 💻, and find related reports 🔎. 
+  
 
 # tests
-How to test project functionality: Here's how you run the tests: 
+How to test project functionality: Report bugs and stuff 
 
 # Questions
 Email address: zilchlorf@yahoo.com
