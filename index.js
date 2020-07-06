@@ -89,7 +89,7 @@ How to test project functionality: ${tests}
 
 # Questions
 Email address: ${email}
-Github profile name: ${github}
+Github profile: https://github.com/${github}
 
 # License
 ${license} © 2020 ${github}
