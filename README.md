@@ -11,19 +11,19 @@ Table of Contents:
 
 
 # Project_Description:
-The county courthouse is a historic building that is located in the oldest town in the state. Over the past few years several "localized" floods have occurred in the two-block region surrounding the courthouse. These floods develop as a result of rainfall events that are at or near the yearly maximum. The floodwaters have flowed both into the historic courthouse (photos were provided) and the adjoining annex, bordering the parking lot to the east of the courthouse. The floods originate in the vicinity of the parking lot and flow south and west into the courthouse complex, exiting onto the downhill streets adjacent to the courthouse (photos were provided). 
+The county courthouse is a historic building that is located in the oldest town in the state. Over the past few years several "localized" floods have occurred in the two-block region surrounding the courthouse. These floods develop as a result of rainfall events that are at or near the yearly maximum. 
 
 # Usage:
- Step #2 Subtract the width of your ridge beam. The ridge beam is the vertical piece of plywood which will form the peak of the gable, and to which you’ll fasten the rafters on either sides. Measure the width of the ridge beam: if you’re using a 2x4, it’ll measure 1.5 inches (3.8 cm). Subtract this measurement from the width of your building.  
+ step 1 Before you start cutting, you first need to determine how long your roof rafters need to be, and the angles at which you’ll cut the top and bottom of the rafter. 
 
 # Installation:
- Step #1:Measure the width of your building. Before you start cutting, you first need to determine how long your roof rafters need to be, and the angles at which you’ll cut the top and bottom of the rafter. 
+ Step 1 install it. step 2: enjoy :) 
 
 # Contribute:
-  
+ please contribute and report bugs and stuff 
 
 # tests
-How to test project functionality: Report bugs and stuff 
+How to test project functionality: Here's how you run the tests: 
 
 # Questions
 Email address: zilchlorf@yahoo.com
