@@ -9,6 +9,8 @@ Table of Contents:
 - [tests](#tests)
 - [Questions](#Questions)
 
+Link to application: https://github.com/zilchlorf/Reliable-README-Generator
+Link to demo video: https://drive.google.com/file/d/1ll2G1LVTQBWDvB8H9FIO8FaaxfL3ziKn/view
 
 # Project_Description:
 This is an application run through terminal that can generate README.md files by filling out prompt information. 
