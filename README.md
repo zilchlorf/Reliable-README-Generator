@@ -13,6 +13,9 @@ Link to application: https://github.com/zilchlorf/Reliable-README-Generator
 
 Link to demo video: https://drive.google.com/file/d/1ll2G1LVTQBWDvB8H9FIO8FaaxfL3ziKn/view
 
+![image](https://user-images.githubusercontent.com/63215148/86678371-58505e00-bfb1-11ea-97e7-c5dcf221f734.png)
+
+
 # Project_Description:
 This is an application run through terminal that can generate README.md files by filling out prompt information. 
 
