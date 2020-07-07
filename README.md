@@ -10,6 +10,7 @@ Table of Contents:
 - [Questions](#Questions)
 
 Link to application: https://github.com/zilchlorf/Reliable-README-Generator
+
 Link to demo video: https://drive.google.com/file/d/1ll2G1LVTQBWDvB8H9FIO8FaaxfL3ziKn/view
 
 # Project_Description:
